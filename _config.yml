@@ -1,0 +1,99 @@
+title: 固件全收集
+timezone: Asia/Shanghai
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  wiki:
+    title: Wiki
+    output: true
+    permalink: "/wiki/:path/"
+baseurl: 
+url: https://getrom.github.io
+date_format: ordinal
+subtitle: 刷出新天地，打开新世界的大门
+description: IoT设备固件全收集
+keywords: N1固件, Webpad固件, YYF, Rush, N1旁路由, K2P固件, 荒野无灯
+encoding: utf-8
+side_bar_repo_limit: 5
+repository: getrom/getrom.github.io
+cdn:
+  jsdelivr:
+    enabled: true
+components:
+  share:
+    enabled: false
+  busuanzi:
+    enabled: true
+    start_date: 2020-05-03 00:00:00.000000000 Z
+compress_html:
+  clippings: all
+  comments:
+  - "<!--"
+  - "-->"
+word_count:
+  enabled: true
+highlight_theme: github
+author: Old White
+organization: 
+organization_url: 
+github_username: getrom
+location: Beijing, China
+email: public@getromCN.onmicrosoft.com
+navs:
+- href: "/"
+  label: 首页
+- href: "/categories/"
+  label: 分类
+- href: "/wiki/"
+  label: 维基
+- href: "/links/"
+  label: 链接
+- href: "/about/"
+  label: 关于
+subscribe_rss: "/feed.xml"
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: "/:year/:month/:day/:title/"
+plugins:
+- jekyll-github-metadata
+- rouge
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
+comments_provider: gitalk
+disqus:
+  username: 
+gitment:
+  owner: getrom
+  repo: talk_store
+  oauth:
+    client_id: 70c48cfb182589fe05e8
+    client_secret: 56278047b66fc243addd189245222fccc93df1f3
+gitalk:
+  owner: getrom
+  admin:getromcn
+  repo: talk_store
+  clientID: 70c48cfb182589fe05e8
+  clientSecret: 56278047b66fc243addd189245222fccc93df1f3
+lazy_load_disqus: false
+simple_jekyll_search:
+  fulltext: false
+  limit: 10
+google:
+  analytics_id: UA-1286743-4
+  adsense:
+    footer: true
+    sidebar: true
+    content_header: true
+    content_footer: false
